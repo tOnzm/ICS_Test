@@ -1,0 +1,9 @@
+@import './base.css';
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+* {
+  color: var(--black);
+}
