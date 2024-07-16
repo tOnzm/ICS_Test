@@ -23,7 +23,7 @@ export default {}
   display: flex;
   flex-direction: column;
   align-items: center;
-  height: 100vh;
+  height: 1456px;
   width: 90px;
   z-index: 100;
   border-radius: 0px 50px 50px 0px;
@@ -45,5 +45,10 @@ export default {}
 hr.solid {
   border-top: 1px solid #e5e5e5;
   width: 100%;
+}
+@media only screen and (max-width: 600px) {
+  .sidebar {
+    display: none;
+  }
 }
 </style>

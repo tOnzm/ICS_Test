@@ -4,6 +4,7 @@ a {
   text-decoration: none;
   color: inherit;
 }
-* {
-  color: var(--black);
+
+body {
+  background-color: #f5f6f8;
 }
